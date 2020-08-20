@@ -10,31 +10,31 @@
 
     <div class="calculator">
         <div>
-            <input type="text" class="result" id="result" placeholder='0'> 
+            <input type="text" class="result" id="result"> 
         </div>
         <div>
             <button class="btn clear" onclick='clearValues()'>C</button>
             <button class="btn" onclick='getValue("9")'>9</button>
             <button class="btn" onclick='getValue("8")'>8</button>
-            <button class="btn" onclick='getValue("+")'>+</button>
+            <button class="btn" onclick='getOperator("+")'>+</button>
         </div>
         <div>
             <button class="btn" onclick='getValue("7")'>7</button>
             <button class="btn" onclick='getValue("6")'>6</button>
             <button class="btn" onclick='getValue("5")'>5</button>
-            <button class="btn" onclick='getValue("-")'>-</button>
+            <button class="btn" onclick='getOperator("-")'>-</button>
         </div>
         <div>
             <button class="btn" onclick='getValue("4")'>4</button>
             <button class="btn" onclick='getValue("3")'>3</button>
             <button class="btn" onclick='getValue("2")'>2</button>
-            <button class="btn" onclick='getValue("*")'>X</button>
+            <button class="btn" onclick='getOperator("*")'>x</button>
         </div>
         <div>
             <button class="btn" onclick='getValue("1")'>1</button>
             <button class="btn" onclick='getValue("0")'>0</button>
             <button class="btn" onclick='getResult()'>=</button>
-            <button class="btn" onclick='getValue("/")'>/</button>
+            <button class="btn" onclick='getOperator("/")'>/</button>
         </div>
     </div>
     
